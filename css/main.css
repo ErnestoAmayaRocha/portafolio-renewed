@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -65,6 +66,7 @@ html {
   0% {
     transform: scale(1, 0);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -74,6 +76,7 @@ html {
   0% {
     transform: scale(1, 0);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -86,11 +89,12 @@ html {
   min-width: 600px;
   transform-origin: top;
   -webkit-animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-          animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
   background-image: url("../images/wavesOpacity.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .wave-bg2 {
   display: block;
   height: 100px;
@@ -98,13 +102,15 @@ html {
   min-width: 600px;
   transform-origin: top;
   -webkit-animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-          animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
   background-position: center;
   background-repeat: no-repeat;
 }
-.menusup{
+
+.menusup {
   background-color: #4A90E2;
 }
+
 .cover {
   background-image: url("../images/wavesOpacity.svg");
   background-size: cover;
@@ -114,8 +120,18 @@ html {
 /* Media query para pantallas más pequeñas, donde deseas que la imagen desaparezca */
 @media only screen and (max-width: 600px) {
   .cover {
-    background-image:url("../images/wavesOpacity.svg");
-    background-size: 300% ;
+    background-image: url("../images/wavesOpacity.svg");
+    background-size: 300%;
+  }
+
+  .typing-box {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 50px;
+  }
+
+  .text-typing {
+    background-color: red;
   }
 }
 
@@ -141,10 +157,12 @@ img.avatar {
 }
 
 @media (min-width: 48em) {
+
   .grid-sizer,
   .grid-item {
     width: 25%;
   }
+
   .grid-item {
     float: left;
     padding: 6px;
@@ -286,6 +304,7 @@ footer a:not(.nav-link) {
   .marker {
     padding-right: 0;
   }
+
   .marker:after {
     bottom: -30px;
     left: 50%;
