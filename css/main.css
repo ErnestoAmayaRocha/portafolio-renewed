@@ -115,7 +115,10 @@ html {
 .cover {
   background-image: url("../images/wavesOpacity.svg");
   background-size: cover;
-  /* Otros estilos que desees aplicar */
+  display: block;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Media query para pantallas más pequeñas, donde deseas que la imagen desaparezca */
