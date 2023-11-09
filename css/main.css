@@ -116,20 +116,15 @@ html {
   background-image: url("../images/wavesOpacity.svg");
   background-size: cover;
   display: block;
-  height: 100px;
-  background-position: center;
-  background-repeat: no-repeat;
+  
 }
 
 /* Media query para pantallas más pequeñas, donde deseas que la imagen desaparezca */
 @media only screen and (max-width: 800px) {
   .cover {
-    background-image: url("../images/wavesOpacity2.svg");
-    background-size: 50% ; /* 100% del ancho del contenedor, auto para la altura */
-    width: 100%; /* Puedes ajustar el ancho como desees */
-    height: 100%; /* Puedes ajustar la altura como desees */
-  }
-
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='600' height='560' preserveAspectRatio='none' viewBox='0 0 600 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1186%26quot%3b)' fill='none'%3e%3crect width='600' height='560' x='0' y='0' fill='rgba(74%2c 144%2c 226%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c131 C 40%2c111.4 120%2c37.2 200%2c33 C 280%2c28.8 320%2c109.6 400%2c110 C 480%2c110.4 560%2c50 600%2c35L600 560L0 560z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c199 C 40%2c232 120%2c358.8 200%2c364 C 280%2c369.2 320%2c226.4 400%2c225 C 480%2c223.6 560%2c330.6 600%2c357L600 560L0 560z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c442 C 13.4%2c456.4 40.2%2c511.6 67%2c514 C 93.8%2c516.4 107.2%2c457.2 134%2c454 C 160.8%2c450.8 174.2%2c507.6 201%2c498 C 227.8%2c488.4 241.2%2c402.4 268%2c406 C 294.8%2c409.6 308.2%2c508.8 335%2c516 C 361.8%2c523.2 375.2%2c438.8 402%2c442 C 428.8%2c445.2 442.2%2c543 469%2c532 C 495.8%2c521 509.8%2c382.2 536%2c387 C 562.2%2c391.8 587.2%2c522.2 600%2c556L600 560L0 560z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1186'%3e%3crect width='600' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");  }
+  
+  
   .typing-box {
     margin-top: -100px;
     margin-bottom: 10px;
