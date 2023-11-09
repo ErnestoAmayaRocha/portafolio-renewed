@@ -121,8 +121,8 @@ html {
 /* Media query para pantallas más pequeñas, donde deseas que la imagen desaparezca */
 @media only screen and (max-width: 800px) {
   .cover {
-    background-image: url("../images/wavesOpacity.svg");
-    background-size: 100%;
+    background-image: url("../images/wavesOpacity2.svg");
+    background-size: 300%;
   }
 
   .typing-box {
