@@ -122,7 +122,7 @@ html {
 @media only screen and (max-width: 800px) {
   .cover {
     background-image: url("../images/wavesOpacity2.svg");
-    background-size: 200% ; /* 100% del ancho del contenedor, auto para la altura */
+    background-size: 50% ; /* 100% del ancho del contenedor, auto para la altura */
     width: 100%; /* Puedes ajustar el ancho como desees */
     height: 100%; /* Puedes ajustar la altura como desees */
   }
