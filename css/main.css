@@ -60,6 +60,7 @@ html {
 /* Hero (intro) section */
 .intro-title {
   font-weight: 800;
+ 
 }
 
 @-webkit-keyframes animateWave {
@@ -121,7 +122,7 @@ html {
 @media only screen and (max-width: 800px) {
   .cover {
     background-image: url("../images/wavesOpacity.svg");
-    background-size: 200%;
+    background-size: 100%;
   }
 
   .typing-box {
