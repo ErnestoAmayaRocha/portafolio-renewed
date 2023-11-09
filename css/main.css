@@ -128,11 +128,11 @@ html {
     margin-top: 50px;
     margin-bottom: 10px;
     height: 50px;
+    background-color: red;
+
   }
 
-  .text-typing {
-    background-color: red;
-  }
+ 
 }
 
 img.avatar {
