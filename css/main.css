@@ -134,6 +134,9 @@ html {
 
  
 }
+.social-nav .nav-link i {
+  font-size: 30px; /* Ajusta el tamaño de la fuente según tus necesidades */
+}
 
 img.avatar {
   border-radius: 30px;
